@@ -24,8 +24,8 @@ var httpsServer = https.createServer(credentials, app);
 
 const db = mysql.createConnection({
     host: '172.26.112.1',
-    user: 'bom',
-    password: '1234',
+    user: 'root',
+    password: 'eVDB9wVFG1HZKR',
     database: 'testing'
 });
 // show data
